@@ -7,5 +7,12 @@
 
 import Foundation
 
-print("Hello, World!")
 
+open class Solution {
+    public init() {
+        
+    }
+}
+
+let solution = Solution()
+solution.testSingleNumber()

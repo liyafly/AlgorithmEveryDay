@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		30C9DD8528C090920003BF41 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30C9DD8428C090920003BF41 /* main.swift */; };
+		30C9DD8D28C0981D0003BF41 /* SingleNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30C9DD8C28C0981D0003BF41 /* SingleNumber.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,7 @@
 /* Begin PBXFileReference section */
 		30C9DD8128C090920003BF41 /* AlgorithmEveryDaySwift */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = AlgorithmEveryDaySwift; sourceTree = BUILT_PRODUCTS_DIR; };
 		30C9DD8428C090920003BF41 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		30C9DD8C28C0981D0003BF41 /* SingleNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleNumber.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,9 +59,18 @@
 		30C9DD8328C090920003BF41 /* AlgorithmEveryDaySwift */ = {
 			isa = PBXGroup;
 			children = (
+				30C9DD8B28C097FB0003BF41 /* Algorithm One-Single Number */,
 				30C9DD8428C090920003BF41 /* main.swift */,
 			);
 			path = AlgorithmEveryDaySwift;
+			sourceTree = "<group>";
+		};
+		30C9DD8B28C097FB0003BF41 /* Algorithm One-Single Number */ = {
+			isa = PBXGroup;
+			children = (
+				30C9DD8C28C0981D0003BF41 /* SingleNumber.swift */,
+			);
+			path = "Algorithm One-Single Number";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -120,6 +131,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				30C9DD8D28C0981D0003BF41 /* SingleNumber.swift in Sources */,
 				30C9DD8528C090920003BF41 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
