@@ -21,5 +21,5 @@ extension Solution {
         }
         return d.next
     }
-    }
 }
+
