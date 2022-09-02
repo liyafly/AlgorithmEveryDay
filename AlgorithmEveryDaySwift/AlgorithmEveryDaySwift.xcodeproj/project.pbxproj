@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		30C9DD8528C090920003BF41 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30C9DD8428C090920003BF41 /* main.swift */; };
 		30C9DD8D28C0981D0003BF41 /* SingleNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30C9DD8C28C0981D0003BF41 /* SingleNumber.swift */; };
+		B24985EA932C26EA3C45432E /* ReverseList.swift in Sources */ = {isa = PBXBuildFile; fileRef = B24987DDAE0D51945FC312EB /* ReverseList.swift */; };
+		B2498833D7A86270DF31C8A2 /* ListNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = B24980936F99FF5F000623B8 /* ListNode.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -27,6 +29,8 @@
 		30C9DD8128C090920003BF41 /* AlgorithmEveryDaySwift */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = AlgorithmEveryDaySwift; sourceTree = BUILT_PRODUCTS_DIR; };
 		30C9DD8428C090920003BF41 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		30C9DD8C28C0981D0003BF41 /* SingleNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleNumber.swift; sourceTree = "<group>"; };
+		B24980936F99FF5F000623B8 /* ListNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListNode.swift; sourceTree = "<group>"; };
+		B24987DDAE0D51945FC312EB /* ReverseList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReverseList.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +44,29 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		306E59D528C1AAA30007A739 /* AlgorithmLeetCode */ = {
+			isa = PBXGroup;
+			children = (
+				306E59D628C1AAA30007A739 /* leetcode */,
+			);
+			path = AlgorithmLeetCode;
+			sourceTree = "<group>";
+		};
+		306E59D628C1AAA30007A739 /* leetcode */ = {
+			isa = PBXGroup;
+			children = (
+				306E59D728C1AAA30007A739 /* editor */,
+			);
+			path = leetcode;
+			sourceTree = "<group>";
+		};
+		306E59D728C1AAA30007A739 /* editor */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = editor;
+			sourceTree = "<group>";
+		};
 		30C9DD7828C090920003BF41 = {
 			isa = PBXGroup;
 			children = (
@@ -59,8 +86,11 @@
 		30C9DD8328C090920003BF41 /* AlgorithmEveryDaySwift */ = {
 			isa = PBXGroup;
 			children = (
+				306E59D528C1AAA30007A739 /* AlgorithmLeetCode */,
 				30C9DD8B28C097FB0003BF41 /* Algorithm One-Single Number */,
 				30C9DD8428C090920003BF41 /* main.swift */,
+				B24980936F99FF5F000623B8 /* ListNode.swift */,
+				B2498CF6A2E6916D9D2CF1E7 /* List */,
 			);
 			path = AlgorithmEveryDaySwift;
 			sourceTree = "<group>";
@@ -71,6 +101,14 @@
 				30C9DD8C28C0981D0003BF41 /* SingleNumber.swift */,
 			);
 			path = "Algorithm One-Single Number";
+			sourceTree = "<group>";
+		};
+		B2498CF6A2E6916D9D2CF1E7 /* List */ = {
+			isa = PBXGroup;
+			children = (
+				B24987DDAE0D51945FC312EB /* ReverseList.swift */,
+			);
+			path = List;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -133,6 +171,8 @@
 			files = (
 				30C9DD8D28C0981D0003BF41 /* SingleNumber.swift in Sources */,
 				30C9DD8528C090920003BF41 /* main.swift in Sources */,
+				B2498833D7A86270DF31C8A2 /* ListNode.swift in Sources */,
+				B24985EA932C26EA3C45432E /* ReverseList.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
