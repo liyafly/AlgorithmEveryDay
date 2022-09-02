@@ -10,6 +10,7 @@
 		30C9DD8528C090920003BF41 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30C9DD8428C090920003BF41 /* main.swift */; };
 		30C9DD8D28C0981D0003BF41 /* SingleNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30C9DD8C28C0981D0003BF41 /* SingleNumber.swift */; };
 		B24985EA932C26EA3C45432E /* ReverseList.swift in Sources */ = {isa = PBXBuildFile; fileRef = B24987DDAE0D51945FC312EB /* ReverseList.swift */; };
+		B249862A10BDE805142EDF98 /* ReverseBetween.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2498DE953C4E3F208393701 /* ReverseBetween.swift */; };
 		B2498833D7A86270DF31C8A2 /* ListNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = B24980936F99FF5F000623B8 /* ListNode.swift */; };
 /* End PBXBuildFile section */
 
@@ -31,6 +32,7 @@
 		30C9DD8C28C0981D0003BF41 /* SingleNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleNumber.swift; sourceTree = "<group>"; };
 		B24980936F99FF5F000623B8 /* ListNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListNode.swift; sourceTree = "<group>"; };
 		B24987DDAE0D51945FC312EB /* ReverseList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReverseList.swift; sourceTree = "<group>"; };
+		B2498DE953C4E3F208393701 /* ReverseBetween.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReverseBetween.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +109,7 @@
 			isa = PBXGroup;
 			children = (
 				B24987DDAE0D51945FC312EB /* ReverseList.swift */,
+				B2498DE953C4E3F208393701 /* ReverseBetween.swift */,
 			);
 			path = List;
 			sourceTree = "<group>";
@@ -173,6 +176,7 @@
 				30C9DD8528C090920003BF41 /* main.swift in Sources */,
 				B2498833D7A86270DF31C8A2 /* ListNode.swift in Sources */,
 				B24985EA932C26EA3C45432E /* ReverseList.swift in Sources */,
+				B249862A10BDE805142EDF98 /* ReverseBetween.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
